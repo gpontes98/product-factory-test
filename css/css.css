@@ -196,6 +196,11 @@ p{
     margin-bottom: 5rem;
 }
 
+.session .col-sm:first-child{
+    font-size: 26px;
+    font-weight: bold;
+}
+
 /*MASTERS SECTION */
 .masters{
     text-align: center;
@@ -330,10 +335,49 @@ p{
 
 
 /**/
-.black-container{
-    background-color: #000000;
+.black-container-mail{
+    background: #111111 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 40vh;
 }
 
+.asign-email .col-sm-8{
+    color: #ffffff;
+    padding-top: 4rem;
+}
+
+.asign-email .col-sm-8 p{
+    color: #ffffff;
+}
+
+.asign-email .col-sm-8 span{
+    color: #ACACAC;
+    font-size: 15px;
+}
+
+.asign-email .col-sm-8 input{
+    max-width: 20rem;
+    margin-bottom: 2rem;
+}
+
+.asign-email .col-sm-8 h1{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+
+/**/
+.my-footer{
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.my-footer .col-sm{
+    text-align: center;
+}
 @media only screen and (max-width: 990px) {
     
     .slider-backgroud-white{
@@ -376,6 +420,10 @@ p{
     .about-us, .course-experience{
         padding: 2.5rem 2.5rem 2rem 2.5rem;
     }
+    .asign-email .col-sm-4 img:first-child{
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (min-width: 991px){
@@ -402,5 +450,10 @@ p{
     
     .navbar-expand-lg{
         padding-top: 2.5rem;
+    }
+
+    .asign-email .col-sm-4 img:first-child{
+        width: 150%;
+        opacity: 0.2;
     }
 }

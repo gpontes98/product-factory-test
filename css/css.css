@@ -8,7 +8,7 @@ body{
 
 /*button on top-right to register */
 .btn-register{
-    border-radius: 40px;
+    border-radius: 12px;
     padding: 10px 30px 10px 30px;
 }
 
@@ -75,7 +75,8 @@ body{
 
 .about-us,
 .course-experience,
-.masters {
+.masters,
+.course-fee {
     margin-bottom: 5rem;
     padding: 2.5rem 5rem 0.25rem 5rem;
     background-color: #FFFFFF;
@@ -226,6 +227,80 @@ p{
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+}
+
+.faq{
+    text-align: center;
+}
+
+.questions-faq .row:first-child{
+    margin-top: 5rem;
+}
+.questions-faq .row{
+    height: 5rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 99px #D3D3D329;
+    border-radius: 26px;
+    opacity: 1;
+}
+.questions-faq .col-sm{
+    display: flex;
+    justify-content: space-between;
+}
+.questions-faq .col-sm span:first-child{
+    margin-left: 2rem;
+    font-size: 15px;
+    font-weight: bold;
+}
+.questions-faq .col-sm span:last-child{
+    margin-right: 2rem;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/*course-fee section */
+.course-fee{
+    margin-top: 5rem;
+}
+
+.course-fee-slider{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.course-fee-slider .col-sm-7{
+    text-align: left;
+}
+.course-fee-slider .col-sm-7 span{
+    display: block;
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 0.5rem;
+}
+
+.course-fee-slider .register{
+    background-color:#000000;
+    height: 85%;
+    width: 95%;
+    border-radius: 25px;
+    opacity: 1;
+    color: #ffffff;
+    padding-top: 2rem;
+}
+.course-fee-slider .register span{
+    display: block;
+}
+
+.btn-register-slide{
+    color: white;
+    font-size: large;
+    background: #F46632 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 150px;
 }
 
 @media only screen and (max-width: 990px) {

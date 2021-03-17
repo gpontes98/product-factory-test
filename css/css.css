@@ -1,0 +1,248 @@
+body{
+    background-color: #FAFAFA;
+}
+
+.btn{
+    border-radius: 0.5rem;
+}
+
+/*button on top-right to register */
+.btn-register{
+    border-radius: 40px;
+    padding: 10px 30px 10px 30px;
+}
+
+.navbar-nav{
+    display: flex;
+    vertical-align: middle;
+    width: 100%;
+    justify-content: space-around;
+}
+
+/*black box to background effect */
+.retangulo-131{
+    background: #111111 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 60vh;
+}
+
+/* Styling the nav-link font */
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.slider-backgroud-white{
+    position: relative;
+    margin: 0 auto;
+    margin-top: -40vh;  
+    padding: 2.5rem 2.5rem 2rem 2.5rem;
+    width: 90vw;
+    background-color: white;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 50px 50px 99px #2222220F;
+    border-radius: 30px;
+    opacity: 1;
+}
+
+.btn-start-register{
+    color: white;
+    font-size: large;
+    background: #F46632 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 300px;
+}
+
+.text-p{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    max-width: 25rem;
+    line-height: 2.5;
+}
+
+.text-h3{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    opacity: 1;
+}
+
+/* ABOUT US SECTION */
+.about-us-section{
+    margin-top: 5rem;
+}
+
+.about-us,
+.course-experience,
+.sessions {
+    margin-bottom: 5rem;
+    padding: 2.5rem 5rem 0.25rem 5rem;
+    background-color: #FFFFFF;
+    box-shadow: 50px 50px 99px #4141410F;
+    border-radius: 30px;
+    opacity: 1;
+    text-align: center;
+}
+.retangulo-93{
+    position: relative;
+    background-color:#101010;
+    height: 15rem;
+    width: 30rem;
+    margin-left: 5rem;
+    border-radius: 30px;
+}
+
+.retangulo-93 img:first-child{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.retangulo-93 a img:last-child{
+    position: absolute;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.social-medias{
+    margin-top: 3.5rem;
+}
+.social-medias img{
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+.about-us .row .col-sm:last-child{
+    display: flex;
+}
+
+.about-us-text{
+    margin: 25px auto 0 auto;
+    text-align: center;
+}
+
+.large-text-style{
+    font-size: 120px;
+    font-weight: bold;
+    opacity: 0.05;
+}
+
+.small-text-style{
+    margin: 0 auto 0 auto;
+    margin-top: -70px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p{
+    margin-top: 2rem;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    line-height: 2.5;
+}
+
+/*COURSE EXPERIENCE SECTION*/
+.buttons-experience{
+    margin-top: 5rem;
+}
+
+.btn-outline-dark:not(:disabled):not(.disabled).active,
+.btn-outline-dark:hover,
+.show>.btn-outline-dark.dropdown-toggle {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.course-experience img:first-child{
+    width: 80%;
+}
+
+
+
+/*SESSIONS SECTION */
+.session .row:first-child{
+    background-color: #F8F8F8;
+    height: 2.5rem;
+    margin-top: 5rem;
+}
+
+.session .row:last-child .col-sm-3{
+    text-align: left;
+}
+
+@media only screen and (max-width: 990px) {
+    
+    .slider-backgroud-white{
+        margin-top: 0; 
+    }
+
+    .retangulo-131{
+        height: auto;
+    }
+
+    .carousel-item .col-sm:last-child{
+        text-align: center;
+    }
+    .carousel-item .col-sm:last-child img{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .btn-start-register{
+        display: block;
+        margin: 0 auto;
+        width: 10rem;
+    }
+
+    .retangulo-93{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .large-text-style{
+        font-size: 50px;
+    }
+
+    .small-text-style{
+        margin-top: -20px;
+    }
+    .social-medias{
+        display: none;
+    }
+    .about-us, .course-experience{
+        padding: 2.5rem 2.5rem 2rem 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 991px){
+    .carousel-item .col-sm:last-child {
+        text-align: center;
+    }
+    
+    .carousel-item .col-sm:first-child p{
+        padding-top: 3.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .retangulo-93{
+        margin-bottom: -7rem;
+    }
+
+    .about-us .row .col-sm:last-child{
+        margin-top: -2rem;
+    }
+
+    .course-experience .col-sm:first-child{
+        max-width: 20rem;
+    }
+    
+    .navbar-expand-lg{
+        padding-top: 2.5rem;
+    }
+}

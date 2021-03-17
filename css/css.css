@@ -269,9 +269,14 @@ p{
     margin-top: 5rem;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 2.5rem;
 }
 .course-fee-slider .col-sm-7{
     text-align: left;
+}
+
+.course-fee-slider .col-sm-7 h4{
+    margin-bottom: 2rem;
 }
 .course-fee-slider .col-sm-7 span{
     display: block;
@@ -284,13 +289,21 @@ p{
 
 .course-fee-slider .register{
     background-color:#000000;
-    height: 85%;
+    height: 100%;
     width: 95%;
     border-radius: 25px;
     opacity: 1;
     color: #ffffff;
     padding-top: 2rem;
 }
+.course-fee-slider .register span:first-child{
+    text-decoration: line-through;
+}
+.course-fee-slider .register span:nth-child(2n){
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .course-fee-slider .register span{
     display: block;
 }
@@ -300,7 +313,25 @@ p{
     font-size: large;
     background: #F46632 0% 0% no-repeat padding-box;
     opacity: 1;
+    margin-top: 1rem;
     width: 150px;
+}
+
+.course-fee-slider hr{
+    margin-top: 4rem;
+}
+.course-fee-slider .last-span-warn{
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.49;
+}
+
+
+/**/
+.black-container{
+    background-color: #000000;
 }
 
 @media only screen and (max-width: 990px) {

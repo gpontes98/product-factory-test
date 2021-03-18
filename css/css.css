@@ -19,6 +19,7 @@ body{
     justify-content: space-around;
 }
 
+
 /*black box to background effect */
 .retangulo-131{
     background: #111111 0% 0% no-repeat padding-box;
@@ -260,6 +261,7 @@ p{
     font-size: 15px;
     font-weight: bold;
 }
+
 .questions-faq .col-sm span:last-child{
     margin-right: 2rem;
     font-size: 35px;
@@ -424,7 +426,7 @@ p{
     background-color: #ffffff;
     box-shadow: 50px 50px 99px #2C2C2C0F;
     height: 25rem;
-    width: 40%;
+    width: 60%;
     margin-top: -15rem;
     border-radius: 30px;
     opacity: 1;
@@ -504,6 +506,7 @@ p{
 .my-footer .col-sm{
     text-align: center;
 }
+
 @media only screen and (max-width: 990px) {
     
     .slider-backgroud-white{
@@ -616,6 +619,10 @@ p{
     .carousel-item .col-sm:first-child p{
         padding-top: 3.5rem;
         margin-bottom: 2.5rem;
+    }
+
+    .carousel-item .container .col-sm:first-child{
+        margin-left: 1.5rem;
     }
 
     .retangulo-93{

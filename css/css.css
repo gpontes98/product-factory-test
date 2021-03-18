@@ -636,6 +636,7 @@ p{
 
     .asign-email .col-sm-4 img:first-child{
         width: 150%;
+        margin-left: -100px;
         opacity: 0.2;
     }
     .retangulo-131{

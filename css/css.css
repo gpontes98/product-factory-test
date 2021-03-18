@@ -1,37 +1,74 @@
 body{
     background-color: #FAFAFA;
 }
+p{
+    margin-top: 2rem;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    line-height: 2.5;
+}
 
 .btn{
     border-radius: 0.5rem;
 }
-
-/*button on top-right to register */
 .btn-register{
-    border-radius: 12px;
-    padding: 10px 30px 10px 30px;
+    color: white;
+    font-size: large;
+    background: #F46632 0% 0% no-repeat padding-box;
 }
 
+.about-us,
+.course-experience,
+.masters,
+.course-fee,
+.schedule-box {
+    margin-bottom: 5rem;
+    padding: 2.5rem 5rem 0.25rem 5rem;
+    background-color: #FAFAFA;
+    box-shadow: 50px 50px 99px #4141410F;
+    border-radius: 30px;
+    opacity: 1;
+    text-align: center;
+}
+
+.large-text-style{
+    font-size: 120px;
+    font-weight: bold;
+    opacity: 0.05;
+}
+.small-text-style{
+    margin: 0 auto 0 auto;
+    margin-top: -70px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+/* --------- HEADER ---------- */
+/*black box  header */
+.background-header{
+    background: #111111 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 60vh;
+}
+
+/* Styling the Navbar */
 .navbar-nav{
     display: flex;
     vertical-align: middle;
     width: 100%;
     justify-content: space-around;
 }
-
-
-/*black box to background effect */
-.retangulo-131{
-    background: #111111 0% 0% no-repeat padding-box;
-    opacity: 1;
-    height: 60vh;
-}
-
-/* Styling the nav-link font */
 .navbar-dark .navbar-nav .nav-link {
     color: #FFFFFF;
 }
 
+
+
+/* --------- SLIDER ---------- */
 .slider-backgroud-white{
     position: relative;
     margin: 0 auto;
@@ -44,16 +81,7 @@ body{
     border-radius: 30px;
     opacity: 1;
 }
-
-.btn-start-register{
-    color: white;
-    font-size: large;
-    background: #F46632 0% 0% no-repeat padding-box;
-    opacity: 1;
-    width: 300px;
-}
-
-.text-p{
+.text-p-slider{
     text-align: left;
     letter-spacing: 0px;
     color: #000000;
@@ -61,33 +89,23 @@ body{
     max-width: 25rem;
     line-height: 2.5;
 }
-
-.text-h3{
+.text-h3-slider{
     text-align: left;
     letter-spacing: 0px;
     color: #8D8D8D;
     opacity: 1;
 }
+.btn-start-register{
+    width: 300px;
+}
 
-/* ABOUT US SECTION */
+
+
+/* --------- ABOUT US ---------- */
 .about-us-section{
     margin-top: 5rem;
 }
-
-.about-us,
-.course-experience,
-.masters,
-.course-fee,
-.schedule-box {
-    margin-bottom: 5rem;
-    padding: 2.5rem 5rem 0.25rem 5rem;
-    background-color: ##FAFAFA;
-    box-shadow: 50px 50px 99px #4141410F;
-    border-radius: 30px;
-    opacity: 1;
-    text-align: center;
-}
-.retangulo-93{
+.video-about-us{
     position: relative;
     background-color:#101010;
     height: 15rem;
@@ -95,8 +113,7 @@ body{
     margin-left: 5rem;
     border-radius: 30px;
 }
-
-.retangulo-93 img:first-child{
+.video-about-us img:first-child{
     position: absolute;
     left: 0;
     right: 0;
@@ -104,12 +121,11 @@ body{
     bottom: 0;
     margin: auto;
 }
-.retangulo-93 a img:last-child{
+.video-about-us a img:last-child{
     position: absolute;
     margin-right: 25px;
     margin-bottom: 25px;
 }
-
 .social-medias{
     margin-top: 3.5rem;
 }
@@ -117,43 +133,20 @@ body{
     display: block;
     margin: 10px 0 0 0;
 }
-
 .about-us .row .col-sm:last-child{
     display: flex;
 }
-
 .about-us-text{
     margin: 25px auto 0 auto;
     text-align: center;
 }
 
-.large-text-style{
-    font-size: 120px;
-    font-weight: bold;
-    opacity: 0.05;
-}
 
-.small-text-style{
-    margin: 0 auto 0 auto;
-    margin-top: -70px;
-    font-size: 24px;
-    font-weight: bold;
-}
 
-p{
-    margin-top: 2rem;
-    text-align: left;
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
-    line-height: 2.5;
-}
-
-/*COURSE EXPERIENCE SECTION*/
+/* --------- COURSE EXPERIENCE ---------- */
 .buttons-experience{
     margin-top: 5rem;
 }
-
 .btn-outline-dark:not(:disabled):not(.disabled).active,
 .btn-outline-dark:hover,
 .show>.btn-outline-dark.dropdown-toggle {
@@ -161,14 +154,13 @@ p{
     background-color: #000000;
     border-color: #000000;
 }
-
 .course-experience img:first-child{
     width: 80%;
 }
 
 
 
-/*SESSIONS SECTION */
+/* --------- SESSIONS ---------- */
 .sessions{
     text-align: center;
 }
@@ -179,47 +171,38 @@ p{
     border-left: black;
     border-radius: 0.25rem;
 }
-
 .session .row{
     border-left: #b9b9b9 solid 1px;
 }
-
 .session .row:first-child{
     border-left: #000000 solid 6px;
 }
-
-
-
 .session .row:last-child .col-sm-3{
     text-align: left;
 }
-
 .sessions .session:last-child{
     margin-bottom: 5rem;
 }
-
 .session .col-sm:first-child{
     font-size: 26px;
     font-weight: bold;
 }
 
-/*MASTERS SECTION */
+
+
+/* --------- MASTERS ---------- */
 .masters{
     text-align: center;
 }
-
 .masters-gallery{
     margin-top: 2.5rem;
 }
-
 .masters-gallery img{
     width: 100%
 }
-
 .masters-gallery .container .col-sm{
     text-align: left;
 }
-
 .masters-gallery .container h7{
     font-weight: bold;
     font-size: 0.85rem;
@@ -236,10 +219,12 @@ p{
     opacity: 1;
 }
 
+
+
+/* --------- FAQ ---------- */
 .faq{
     text-align: center;
 }
-
 .questions-faq .row:first-child{
     margin-top: 5rem;
 }
@@ -268,7 +253,9 @@ p{
     font-weight: bold;
 }
 
-/*course-fee section */
+
+
+/* --------- COURSE FEE ---------- */
 .course-fee{
     margin-top: 5rem;
 }
@@ -317,17 +304,9 @@ p{
 }
 
 .btn-register-slide{
-    color: white;
-    font-size: large;
-    background: #F46632 0% 0% no-repeat padding-box;
-    opacity: 1;
     width: 150px;
-}
-
-.register .btn{
     margin-top: 1rem;
 }
-
 .course-fee-slider hr{
     margin-top: 4rem;
 }
@@ -340,32 +319,28 @@ p{
 }
 
 
-/**/
+
+/* --------- MAIL LIST ---------- */
 .black-container-mail{
     background: #111111 0% 0% no-repeat padding-box;
     opacity: 1;
     height: 40vh;
 }
-
 .asign-email .col-sm-8{
     color: #ffffff;
     padding-top: 4rem;
 }
-
 .asign-email .col-sm-8 p{
     color: #ffffff;
 }
-
 .asign-email .col-sm-8 span{
     color: #ACACAC;
     font-size: 15px;
 }
-
 .asign-email .col-sm-8 input{
     max-width: 20rem;
     margin-bottom: 2rem;
 }
-
 .asign-email .col-sm-8 h1{
     text-align: left;
     letter-spacing: 0px;
@@ -373,7 +348,9 @@ p{
     opacity: 1;
 }
 
-/*PROJECTS SECTION*/
+
+
+/* --------- PROJECTS ---------- */
 .projects-box{
     text-align: center;
     margin-top: 5rem;
@@ -384,7 +361,6 @@ p{
 .projects .col-sm:first-child{
     text-align: left;
 }
-
 .projects .col-sm:last-child{
     text-align: center;
 }
@@ -404,7 +380,6 @@ p{
     color:#000000;
     font-size: 20px;
 }
-
 .counter-projects{
     background-color: #F5F5F5;
     border-radius: 16px;
@@ -412,7 +387,6 @@ p{
     height: 50px;
     text-align: center;
 }
-
 .background-slider-projects{
     background-color: #F5F5F5;
     width: 100%;
@@ -420,7 +394,6 @@ p{
     border-radius: 30px;
     opacity: 1;
 }
-
 .slider-projects{
     margin: 0 auto;
     background-color: #ffffff;
@@ -432,10 +405,11 @@ p{
     opacity: 1;
 }
 
+
+/* --------- SCHEDULE ---------- */
 .schedule-box{
     margin-top: 5rem;
 }
-
 .start-course-text,
 .end-course-text{
     text-align: center;
@@ -445,21 +419,17 @@ p{
     opacity: 1;
     font-weight: bold;
 }
-
 .schedule{
     margin-top: 5rem;
     padding-bottom: 5rem;
 }
-
 .schedule .row:nth-child(2n){
     text-align: center;
     margin-top: 4rem;
 }
-
 .schedule .row:last-child{
     margin-top: 4rem;
 }
-
 .date-start-course,
 .date-end-course{
     background-color: #FFFFFF;
@@ -472,7 +442,6 @@ p{
     font-weight:900;
     margin: 0 auto;
 }
-
 .days-left-start{
     background: #000000;
     border-radius: 16px;
@@ -490,8 +459,8 @@ p{
     padding-right: 15px;
 }
 
-/**/
-.background-white{
+/* --------- FOOTER ---------- */
+.background-white-footer{
     background: #ffffff;
     opacity: 1;
     min-height: 200px;
@@ -513,7 +482,7 @@ p{
         margin-top: 0; 
     }
 
-    .retangulo-131{
+    .background-header{
         height: auto;
     }
 
@@ -531,7 +500,7 @@ p{
         width: 10rem;
     }
 
-    .retangulo-93{
+    .video-about-us{
         width: 90%;
         margin: 0 auto;
     }
@@ -625,7 +594,7 @@ p{
         margin-left: 1.5rem;
     }
 
-    .retangulo-93{
+    .video-about-us{
         margin-bottom: -7rem;
     }
 
@@ -646,7 +615,7 @@ p{
         margin-left: -100px;
         opacity: 0.2;
     }
-    .retangulo-131{
+    .background-header{
         min-height: 300px;
     }
     .black-container-mail{

@@ -76,10 +76,11 @@ body{
 .about-us,
 .course-experience,
 .masters,
-.course-fee {
+.course-fee,
+.schedule-box {
     margin-bottom: 5rem;
     padding: 2.5rem 5rem 0.25rem 5rem;
-    background-color: #FFFFFF;
+    background-color: ##FAFAFA;
     box-shadow: 50px 50px 99px #4141410F;
     border-radius: 30px;
     opacity: 1;
@@ -318,8 +319,11 @@ p{
     font-size: large;
     background: #F46632 0% 0% no-repeat padding-box;
     opacity: 1;
-    margin-top: 1rem;
     width: 150px;
+}
+
+.register .btn{
+    margin-top: 1rem;
 }
 
 .course-fee-slider hr{
@@ -367,10 +371,132 @@ p{
     opacity: 1;
 }
 
+/*PROJECTS SECTION*/
+.projects-box{
+    text-align: center;
+    margin-top: 5rem;
+}
+.projects{
+    margin-top: 5rem;
+}
+.projects .col-sm:first-child{
+    text-align: left;
+}
 
+.projects .col-sm:last-child{
+    text-align: center;
+}
+.projects .col-sm:first-child h2{
+    font-size: 38px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.projects .col-sm:first-child span:first-child{
+    margin-top: 4rem;
+    font-size: 35px;
+}
+.projects .col-sm span{
+    margin-top: 0.5rem;
+    display: block;
+    color:#000000;
+    font-size: 20px;
+}
+
+.counter-projects{
+    background-color: #F5F5F5;
+    border-radius: 16px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+
+.background-slider-projects{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 70%;
+    border-radius: 30px;
+    opacity: 1;
+}
+
+.slider-projects{
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 50px 50px 99px #2C2C2C0F;
+    height: 25rem;
+    width: 40%;
+    margin-top: -15rem;
+    border-radius: 30px;
+    opacity: 1;
+}
+
+.schedule-box{
+    margin-top: 5rem;
+}
+
+.start-course-text,
+.end-course-text{
+    text-align: center;
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.schedule{
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.schedule .row:nth-child(2n){
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.schedule .row:last-child{
+    margin-top: 4rem;
+}
+
+.date-start-course,
+.date-end-course{
+    background-color: #FFFFFF;
+    box-shadow: 40px 40px 99px #ACACAC29;
+    border-radius: 26px;
+    opacity: 1;
+    width: 350px;
+    height: 50px;
+    font-size: 35px;
+    font-weight:900;
+    margin: 0 auto;
+}
+
+.days-left-start{
+    background: #000000;
+    border-radius: 16px;
+    opacity: 1;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 900;
+    margin-right: 15px;
+}
+.text-days-left-start{
+    color: #000000;
+    font-size: 22px;
+    font-weight:700;
+    padding-right: 15px;
+}
 
 /**/
-.my-footer{
+.background-white{
+    background: #ffffff;
+    opacity: 1;
+    min-height: 200px;
+    padding-bottom: 100px;
+}
+
+.my-footer .col-sm{
     justify-content: space-between;
     margin-top: 5rem;
 }
@@ -424,6 +550,62 @@ p{
         width: 100%;
         margin: 0 auto;
     }
+    .date-start-course,
+    .date-end-course{
+        font-size: 25px;
+        width: 90%;
+        height: 41px;
+    }
+
+    .session .row:last-child img{
+        margin-top: 100px;
+    }
+
+    .masters-gallery .col-sm{
+        margin-bottom: 35px;
+    }
+
+    .course-fee {
+        padding: 2.5rem 0.75rem 0.25rem 0.75rem;
+    }
+
+    .course-fee-slider .register{
+        margin-top: 25px;
+    }
+
+
+    .asign-email img:last-child{
+        display: none;
+    }
+
+    .black-container-mail{
+        height: 100%;
+        padding-bottom: 5px;
+    }
+
+    .projects .col-sm:first-child span:first-child {
+        display: none;
+    }
+    .background-slider-projects {
+        display: none;
+    }
+
+    .slider-projects {
+        height: 25rem;
+        width: 250px;
+        margin-top: 25px;
+        border-radius: 30px;
+    }
+
+    .counter-projects{
+        display: none;
+    }
+
+    .schedule .row:last-child .col-sm:last-child span{
+        display: block;
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
 }
 
 @media only screen and (min-width: 991px){
@@ -455,5 +637,11 @@ p{
     .asign-email .col-sm-4 img:first-child{
         width: 150%;
         opacity: 0.2;
+    }
+    .retangulo-131{
+        min-height: 300px;
+    }
+    .black-container-mail{
+        min-height: 385px;
     }
 }

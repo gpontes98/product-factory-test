@@ -175,10 +175,8 @@ p{
     border-left: #b9b9b9 solid 1px;
 }
 .session .row:first-child{
-    border-left: #000000 solid 6px;
-}
-.session .row:last-child .col-sm-3{
     text-align: left;
+    border-left: #000000 solid 6px;
 }
 .sessions .session:last-child{
     margin-bottom: 5rem;
@@ -186,6 +184,12 @@ p{
 .session .col-sm:first-child{
     font-size: 26px;
     font-weight: bold;
+}
+.session .row:last-child .col-sm-2{
+    text-align: left;
+}
+.session .row:last-child img{
+    width: 45%;
 }
 
 
@@ -529,9 +533,16 @@ p{
         height: 41px;
     }
 
-    .session .row:last-child img{
-        margin-top: 100px;
+    .session .row div{
+        text-align: center;
+        margin-top: 1.5rem;
     }
+
+    .session .row:last-child .col-sm-2{
+        margin-top: 12rem;
+        text-align: center;
+    }
+
 
     .masters-gallery .col-sm{
         margin-bottom: 35px;
